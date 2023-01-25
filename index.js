@@ -14,6 +14,12 @@ function division (num7 , num8){
     return num7 / num8
 }
 
+function Persona() {
+    this.dni = '';
+    this.nombre = '';
+
+}
+
 let res = suma(3,5);
 console.log( res );
 
@@ -25,5 +31,17 @@ console.log(res);
 
 res = division (10, 2)
 console.log(res);
+
+let yo = new Persona();
+let tu = new Persona();
+
+yo.dni = '1234567';
+yo.nombre = 'Marcos';
+tu.dni = '7654321';
+tu.nombre = 'Pedro';
+
+console.log(yo);
+console.log(tu);
+
 
 
